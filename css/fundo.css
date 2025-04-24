@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(251, 253, 255);
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#img{
+    border-radius: 40px;    
+    height: 615px;
+    width: 700px;
+    margin-left: 1%;
+    margin-top: 10px;
+    clip-path: polygon(
+        0% 0%,           /* canto superior esquerdo */
+        85% 0%,          /* perto do canto superior direito */
+        100% 0%,        /* meio da lateral direita (cria a diagonal) */
+        85% 100%,        /* perto do canto inferior direito */
+        0% 100%         /* canto inferior esquerdo */
+    );
+}
+#apex{
+    height: 60px;
+    width: 100px;
+    top:-205px;
+    position: relative;
+    margin-left: 30px;
+}
+.producao{
+    font-size: 15px;
+    top: -280px;
+    position: relative;
+    color: aliceblue;
+    margin-left: 140px;
+    font-family: 'gmail';
+
+}
+#lingua{
+    height: 40px;
+    width: 150px;
+    top: -845px;
+    position: relative;
+    margin-left: 85%;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(194, 194, 194);
+}
+#rept{
+    font-size: 40px;
+    position: relative;
+    top: -630px;
+    margin-left: 54%;
+    font-family: 'titulo';
+}
+
+#botao{
+    left: 470px;
+    position: relative;
+    top:-565px;
+}
+.cad{
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    font-size: 19px;
+    font-family:'titulo';
+}
