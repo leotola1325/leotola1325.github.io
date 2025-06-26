@@ -139,7 +139,7 @@ const universities = [
         shortName: "UFRJ",
         type: "publica",
         location: "Rio de Janeiro, RJ",
-        image: "https://i.pinimg.com/736x/d4/c9/75/d4c9757c62c7af0645f419d3bd44d6e1.jpg",
+        image: "https://ogimg.infoglobo.com.br/in/24875842-3df-0d9/FT1086A/91540713_RI-Rio-de-Janeiro-RJ-09-02-2021Universidade-Federal-do-Rio-de-Janeiro-UFRJcampus-da-P.jpg",
         students: "67.000",
         courses: "280+",
         ranking: "#3",
