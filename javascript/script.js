@@ -6,7 +6,7 @@ const universities = [
         shortName: "USP",
         type: "publica",
         location: "São Paulo, SP",
-        image: "https://direito.usp.br/pca/arquivos/eeb5bf47643b_whatsapp-image-2022-07-25-at-16.29.33.jpeg",
+        image:"https://direito.usp.br/pca/arquivos/eeb5bf47643b_whatsapp-image-2022-07-25-at-16.29.33.jpeg",
         students: "90.000",
         courses: "300+",
         ranking: "#1",
@@ -199,6 +199,628 @@ const universities = [
             { name: "Portador de Diploma", description: "Para graduados" }
         ],
         scholarships: ["Auxílio Permanência", "Bolsa Alimentação", "Bolsa Moradia"]
+    },
+    {
+        "id": 7,
+        "name": "Universidade São Judas Tadeu",
+        "shortName": "São Judas",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://cpp.org.br/wp-content/uploads/2018/11/17085af1ac88b9579a7412609f8a7483-500.jpg",
+        "students": "37.000",   
+        "ranking": "Top 20 Brasil (privada)",
+        "price": "R$ 1.200",
+        "priceValue": 1200,
+        "description": "Universidade com tradição em diversas áreas, especialmente Direito, Engenharia, Saúde e Negócios.",
+        "courses_offered": [
+          { "name": "Direito", "duration": "5 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Medicina Veterinária", "duration": "5 anos" },
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Psicologia", "duration": "5 anos" },
+          { "name": "Ciência da Computação", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Mooca - São Paulo",
+          "Campus Butantã - São Paulo",
+          "Campus Paulista - São Paulo",
+          "Campus Jabaquara - São Paulo",
+          "Campus Santo Amaro - São Paulo",
+          "Campus Santana - São Paulo",
+          "Campus Vila Leopoldina - São Paulo",
+          "Campus São Bernardo do Campo - SP",
+          "Campus Guarulhos - SP",
+          "Campus Cubatão (Medicina) - SP",
+          "Campus Unimonte (Santos) - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova tradicional da instituição" },
+          { "name": "ENEM", "description": "Uso da nota do ENEM" },
+          { "name": "Transferência", "description": "Ingresso por transferência externa" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito", "Convênio Empresa"]
+      },
+      {
+        "id": 8,
+        "name": "Universidade Nove de Julho",
+        "shortName": "Uninove",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://i0.wp.com/saopaulo.wordcamp.org/2019/files/2019/07/uninove-liberdade.jpg?w=1024&ssl=1",
+        "students": "90.000+",
+        "courses": "200+",
+        "ranking": "Top 10 SP Privadas",
+        "price": "R$ 800 - R$ 1.500",
+        "priceValue": 1100,
+        "description": "Uma das maiores universidades privadas do Brasil, conhecida por EAD forte e grande estrutura.",
+        "courses_offered": [
+          { "name": "Sistemas de Informação", "duration": "4 anos" },
+          { "name": "Medicina", "duration": "6 anos" },
+          { "name": "Direito", "duration": "5 anos" },
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Engenharia de Produção", "duration": "5 anos" }
+        ],
+        "locations": [
+          "Campus Memorial - São Paulo",
+          "Campus Vergueiro - São Paulo",
+          "Campus Vila Maria - São Paulo",
+          "Campus Santo Amaro - São Paulo",
+          "Campus Vila Prudente - São Paulo",
+          "Campus Bauru - SP",
+          "Campus Guarulhos - SP",
+          "Campus Mauá - SP",
+          "Campus São Bernardo do Campo - SP",
+          "Campus Osasco - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria ou online" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" },
+          { "name": "Transferência", "description": "Ingresso por transferência" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsas institucionais"]
+      },
+      {
+        "id": 9,
+        "name": "Mackenzie - Universidade Presbiteriana Mackenzie",
+        "shortName": "Mackenzie",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://img2.migalhas.com.br/_MEDPROC_/https__img.migalhas.com.br__SL__gf_base__SL__empresas__SL__MIGA__SL__imagens__SL__2023__SL__03__SL__08__SL__f167b5b2-2c4b-4426-bc63-6566dacbee5d.png._PROC_CP65.png",
+        "students": "45.000",
+        "courses": "150+",
+        "ranking": "Top 10 Brasil (privadas)",
+        "price": "R$ 2.000",
+        "priceValue": 2000,
+        "description": "Universidade tradicional com excelência em Arquitetura, Direito, Engenharia e Negócios.",
+        "courses_offered": [
+          { "name": "Arquitetura e Urbanismo", "duration": "5 anos" },
+          { "name": "Engenharia de Produção", "duration": "5 anos" },
+          { "name": "Direito", "duration": "5 anos" }
+        ],
+        "locations": [
+          "Campus Higienópolis - São Paulo",
+          "Campus Alphaville - Barueri, SP",
+          "Campus Campinas - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova tradicional Mackenzie" },
+          { "name": "ENEM", "description": "Nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "Bolsa Mérito", "FIES"]
+      },
+      {
+        "id": 10,
+        "name": "Insper - Instituto de Ensino e Pesquisa",
+        "shortName": "Insper",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pr%C3%A9dio_Quat%C3%A1_67%2C_inaugurado_pelo_Insper_em_agosto_de_2024..png",
+        "students": "3.000",
+        "courses": "10+",
+        "ranking": "#1 em Administração e Economia",
+        "price": "Sob consulta",
+        "priceValue": 0,
+        "description": "Instituição focada em Administração, Economia e Engenharia, com forte ênfase em inovação e empreendedorismo.",
+        "courses_offered": [
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Economia", "duration": "4 anos" },
+          { "name": "Engenharia Mecânica", "duration": "5 anos" },
+          { "name": "Engenharia de Computação", "duration": "5 anos" }
+        ],
+        "locations": [
+          "Campus Vila Olímpia - São Paulo"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria do Insper" },
+          { "name": "ENEM", "description": "Uso da nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "Bolsa Mérito", "FIES"]
+      },
+      {
+        "id": 11,
+        "name": "Universidade Anhembi Morumbi",
+        "shortName": "Anhembi Morumbi",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://www.anhembimorumbihortolandia.com/wp-content/uploads/2022/04/ANHEMBI_FACHADA.png",
+        "students": "40.000",
+        "courses": "100+",
+        "ranking": "Top 20 Privadas SP",
+        "price": "R$ 1.500",
+        "priceValue": 1500,
+        "description": "Reconhecida por cursos de Tecnologia, Comunicação, Moda e Gestão.",
+        "courses_offered": [
+          { "name": "Design Gráfico", "duration": "4 anos" },
+          { "name": "Jogos Digitais", "duration": "4 anos" },
+          { "name": "Engenharia de Software", "duration": "4 anos" },
+          { "name": "Marketing", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Vila Olímpia - São Paulo",
+          "Campus Santo Amaro - São Paulo",
+          "Campus Moema - São Paulo",
+          "Campus Paulista - São Paulo"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova tradicional" },
+          { "name": "ENEM", "description": "Nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 12,
+        "name": "Estácio de Sá",
+        "shortName": "Estácio",
+        "type": "privada",
+        "location": "Rio de Janeiro, RJ",
+        "image": "https://wordpress-cms-revista-prod-assets.quero.space/uploads/2024/08/1d8744752991af7f5da3edf5b32b622ccc525f4e.png",
+        "students": "350.000+",
+        "courses": "200+",
+        "ranking": "Uma das maiores EAD do Brasil",
+        "price": "R$ 700 - R$ 1.200",
+        "priceValue": 950,
+        "description": "Rede de ensino privada com grande foco em EAD e cursos presenciais em várias áreas.",
+        "courses_offered": [
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Direito", "duration": "5 anos" },
+          { "name": "Pedagogia", "duration": "4 anos" },
+          { "name": "Sistemas de Informação", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Tijuca - Rio de Janeiro",
+          "Campus Botafogo - Rio de Janeiro",
+          "Campus Barra da Tijuca - Rio de Janeiro",
+          "Campus Niterói - RJ",
+          "Campus São Gonçalo - RJ",
+          "Campus Salvador - BA",
+          "Campus Brasília - DF"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova presencial ou online" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Institucional"]
+      },
+      {
+        "id": 13,
+        "name": "Universidade Cruzeiro do Sul",
+        "shortName": "Cruzeiro do Sul",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image":"https://i0.wp.com/ucs.digital/wp-content/uploads/2022/11/IMG-20221121-WA0021.jpg?fit=1024%2C576&ssl=1",
+        "students": "80.000+",
+        "courses": "150+",
+        "ranking": "Top 20 SP Privadas",
+        "price": "R$ 1.200",
+        "priceValue": 1200,
+        "description": "Famosa por cursos de Medicina, Engenharia, Administração e Tecnologia.",
+        "courses_offered": [
+          { "name": "Medicina", "duration": "6 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Sistemas de Informação", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Brás - São Paulo",
+          "Campus Tatuapé - São Paulo",
+          "Campus Santo Amaro - São Paulo",
+          "Campus Suzano - SP",
+          "Campus Osasco - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria ou online" },
+          { "name": "ENEM", "description": "Nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 14    ,
+        "name": "Universidade Belas Artes",
+        "shortName": "Belas Artes",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://www.belasartes.br/wp-content/uploads/2023/04/belas-artes-stb-parceria.png.webp",
+        "students": "20.000",
+        "courses": "60+",
+        "ranking": "Referência em Artes e Design",
+        "price": "R$ 2.000",
+        "priceValue": 2000,
+        "description": "Tradicional universidade focada em cursos de Artes, Design, Moda e Arquitetura.",
+        "courses_offered": [
+          { "name": "Design Gráfico", "duration": "4 anos" },
+          { "name": "Arquitetura e Urbanismo", "duration": "5 anos" },
+          { "name": "Moda", "duration": "4 anos" },
+          { "name": "Cinema e Audiovisual", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Barra Funda - São Paulo",
+          "Campus Vila Mariana - São Paulo",
+          "Campus Perdizes - São Paulo"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova tradicional" },
+          { "name": "ENEM", "description": "Nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 15,
+        "name": "Universidade Paulista (UNIP)",
+        "shortName": "UNIP",
+        "type": "privada",
+        "location": "São Paulo, SP",
+        "image": "https://jornalarua.com/wp-content/uploads/2023/04/campi-unip-jornal-a-rua.jpg",
+        "students": "200.000+",
+        "courses": "300+",
+        "ranking": "Top 10 em EAD",
+        "price": "R$ 800 - R$ 1.500",
+        "priceValue": 1150,
+        "description": "Uma das maiores universidades privadas do Brasil, com forte presença em EAD e cursos presenciais em diversas áreas.",
+        "courses_offered": [
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Direito", "duration": "5 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Sistemas de Informação", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Barra Funda - São Paulo",
+          "Campus Mooca - São Paulo",
+          "Campus Lapa - São Paulo",
+          "Campus Santo Amaro - São Paulo",
+          "Campus Guarulhos - SP",
+          "Campus Osasco - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria ou online" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Institucional"]
+      },
+      {
+        "id": 17,
+        "name": "Universidade Metodista de São Paulo",
+        "shortName": "Metodista",
+        "type": "privada",
+        "location": "São Bernardo do Campo, SP",
+        "image": "https://s1.static.brasilescola.uol.com.br/be/vestibular/entrado-campus-vergueiro-54986938ba509.jpg",
+        "students": "12.000",
+        "courses": "50+",
+        "ranking": "Top 20 Privadas SP",
+        "price": "R$ 1.200",
+        "priceValue": 1200,
+        "description": "Universidade com tradição em Educação, Engenharia, Negócios e Comunicação.",
+        "courses_offered": [
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Psicologia", "duration": "5 anos" },
+          { "name": "Publicidade e Propaganda", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Rudge Ramos - São Bernardo do Campo",
+          "Campus Belenzinho - São Paulo"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 19,
+        "name": "Universidade Braz Cubas",
+        "shortName": "Braz Cubas",
+        "type": "privada",
+        "location": "Mogi das Cruzes, SP",
+        "image": "https://noticias.cruzeirodosuleducacional.edu.br/wp-content/uploads/2023/11/braz-cubas-campus.jpg",
+        "students": "15.000",
+        "courses": "40+",
+        "ranking": "Referência em SP interior",
+        "price": "R$ 1.100",
+        "priceValue": 1100,
+        "description": "Universidade reconhecida por cursos de Administração, Engenharia, Educação e Tecnologia.",
+        "courses_offered": [
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Sistemas de Informação", "duration": "4 anos" },
+          { "name": "Pedagogia", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Mogi das Cruzes - SP",
+          "Campus Suzano - SP",
+          "Campus Guararema - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 20,
+        "name": "Universidade do Vale do Rio dos Sinos (Unisinos)",
+        "shortName": "Unisinos",
+        "type": "privada",
+        "location": "São Leopoldo, RS",
+        "image": "https://noticiasconcursos.com.br/wp-content/uploads/2023/05/noticiasconcursos.com.br-unisinos-abre-inscricoes-do-vestibular-de-inverno-2023-unisinos.jpg",
+        "students": "30.000",
+        "courses": "70+",
+        "ranking": "Referência em Tecnologia e Gestão",
+        "price": "R$ 1.800",
+        "priceValue": 1800,
+        "description": "Universidade tradicional do RS, reconhecida em Engenharia, Tecnologia e Negócios.",
+        "courses_offered": [
+          { "name": "Engenharia de Software", "duration": "5 anos" },
+          { "name": "Sistemas de Informação", "duration": "4 anos" },
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" }
+        ],
+        "locations": [
+          "Campus São Leopoldo - RS",
+          "Campus Porto Alegre - RS"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 21,
+        "name": "Universidade do Centro de Ensino Unificado de Brasília (UniCEUB)",
+        "shortName": "UniCEUB",
+        "type": "privada",
+        "location": "Brasília, DF",
+        "image": "https://sechat.com.br/_next/image?url=https%3A%2F%2Fsechat-images.s3.amazonaws.com%2FAlunas_do_Ceub_realizam_estudo_que_comprovam_os_beneficios_do_CBD_contra_epilepsia_infantil_a2861c1636.jpg&w=1920&q=80",
+        "students": "15.000",
+        "courses": "60+",
+        "ranking": "Top 10 DF Privadas",
+        "price": "R$ 1.500",
+        "priceValue": 1500,
+        "description": "Referência em Administração, Direito, Engenharia e Saúde no Distrito Federal.",
+        "courses_offered": [
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Direito", "duration": "5 anos" },
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Nutrição", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Asa Norte - Brasília",
+          "Campus Asa Sul - Brasília"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Institucional"]
+      },
+      {
+        "id": 18,
+        "name": "Universidade do Oeste Paulista (Unoeste)",
+        "shortName": "Unoeste",
+        "type": "privada",
+        "location": "Presidente Prudente, SP",
+        "image": "https://cdn.diariodolitoral.com.br/img/pc/920/610/dn_noticia/2019/12/foto-release.jpg",
+        "students": "12.000",
+        "courses": "50+",
+        "ranking": "Referência em Engenharia e Saúde",
+        "price": "R$ 1.200",
+        "priceValue": 1200,
+        "description": "Universidade reconhecida em cursos de Engenharia, Tecnologia e Ciências da Saúde.",
+        "courses_offered": [
+          { "name": "Engenharia Civil", "duration": "5 anos" },
+          { "name": "Engenharia de Produção", "duration": "5 anos" },
+          { "name": "Enfermagem", "duration": "4 anos" },
+          { "name": "Fisioterapia", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Presidente Prudente - SP",
+          "Campus Araçatuba - SP",
+          "Campus Dracena - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria" },
+          { "name": "ENEM", "description": "Nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 24,
+        "name": "Universidade São Francisco (USF)",
+        "shortName": "USF",
+        "type": "privada",
+        "location": "Bragança Paulista, SP",
+        "image": "https://s2-g1.glbimg.com/aqlC2_d-gukP5Zeqq19MyxRvZ1c=/0x0:1600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/o/Y/zYlbdaQa6bvdosfQF0Kg/informe-g1-2024-03-20t093725.285.png",
+        "students": "10.000",
+        "courses": "40+",
+        "ranking": "Referência em Saúde e Educação",
+        "price": "R$ 1.400",
+        "priceValue": 1400,
+        "description": "Universidade focada em cursos de Saúde, Educação e Tecnologia, reconhecida em SP interior.",
+        "courses_offered": [
+          { "name": "Enfermagem", "duration": "4 anos" },
+          { "name": "Fisioterapia", "duration": "4 anos" },
+          { "name": "Administração", "duration": "4 anos" },
+          { "name": "Sistemas de Informação", "duration": "4 anos" }
+        ],
+        "locations": [
+          "Campus Bragança Paulista - SP",
+          "Campus Itatiba - SP"
+        ],
+        "admission_methods": [
+          { "name": "Vestibular", "description": "Prova própria" },
+          { "name": "ENEM", "description": "Ingresso via nota do ENEM" }
+        ],
+        "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
+      },
+      {
+        "id": 25,
+        "name": "UNIVESP-Universidade Virtual do Estado de São Paulo",
+        "shortName": "UNIVESP",
+        "type": "publica",
+        "location": "São Paulo, SP",
+        "image": "https://abcdoabc.com.br/wp-content/uploads/2024/07/univesp-525x350.jpg",
+        "students": "30.000+",
+        "courses": "10+",
+        "ranking": "#1 Virtual",
+        "price": "Gratuito",
+        "priceValue": 0,
+        "description": "Primeira universidade 100% online do Brasil, oferecendo cursos de graduação e pós-graduação com qualidade e flexibilidade.",
+        "courses_offered": [
+            { "name": "Licenciatura em Matemática", "duration": "4 anos" },
+            { "name": "Engenharia de Computação", "duration": "4 anos" },
+            { "name": "Tecnologia em Gestão Pública", "duration": "3 anos" },
+            { "name": "Tecnologia em Análise e Desenvolvimento de Sistemas", "duration": "3 anos" }
+        ],
+        "locations": [
+            "Polos em todos os municípios do Estado de São Paulo"
+        ],
+        "admission_methods": [
+            { "name": "Vestibular UNIVESP", "description": "Prova objetiva online" },
+            { "name": "ENEM", "description": "Aproveitamento da nota do ENEM" }
+        ],
+        "scholarships": ["Auxílio Internet", "Bolsas de Inclusão Digital"]
+    },
+    {
+        "id": 26,
+        "name": "UEMA-Universidade Estadual do Maranhão",
+        "shortName": "UEMA",
+        "type": "publica",
+        "location": "São Luís, MA",
+        "image": "https://repositorio.uema.br/retrieve/34fb75b8-93cf-4758-955c-4797b2aef562",
+        "students": "20.000+",
+        "courses": "70+",
+        "ranking": "#2 Nordeste",
+        "price": "Gratuito",
+        "priceValue": 0,
+        "description": "Referência no Maranhão, com forte atuação em educação, pesquisa e extensão, oferecendo cursos presenciais em diversas áreas.",
+        "courses_offered": [
+            { "name": "Medicina", "duration": "6 anos" },
+            { "name": "Engenharia Civil", "duration": "5 anos" },
+            { "name": "Direito", "duration": "5 anos" },
+            { "name": "Administração", "duration": "4 anos" }
+        ],
+        "locations": [
+            "Campus São Luís",
+            "Campus Caxias",
+            "Campus Imperatriz",
+            "Campus Timon"
+        ],
+        "admission_methods": [
+            { "name": "Vestibular UEMA", "description": "Prova presencial" },
+            { "name": "ENEM/SISU", "description": "Parte das vagas via ENEM" }
+        ],
+        "scholarships": ["Auxílio Moradia", "Auxílio Alimentação", "Bolsas CNPq"]
+    },
+    {
+        "id": 27,
+        "name": "FATEC-Faculdade de Tecnologia do Estado de São Paulo",
+        "shortName": "FATEC",
+        "type": "publica",
+        "location": "São Paulo, SP",
+        "image": "https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2023/11/5060-1-2-3a-scaled.jpg",
+        "students": "50.000+",
+        "courses": "70+",
+        "ranking": "#3 Tecnologia",
+        "price": "Gratuito",
+        "priceValue": 0,
+        "description": "Rede de faculdades públicas com mais de 70 campi em todo o estado de São Paulo, referência em tecnologia e inovação.",
+        "courses_offered": [
+            { "name": "Análise e Desenvolvimento de Sistemas", "duration": "3 anos" },
+            { "name": "Gestão de TI", "duration": "3 anos" },
+            { "name": "Engenharia de Computação", "duration": "4 anos" },
+            { "name": "Gestão Empresarial", "duration": "3 anos" },
+            { "name": "Redes de Computadores", "duration": "3 anos" }
+        ],
+        "locations": [
+            "Campi distribuídos em mais de 70 cidades do estado de São Paulo"
+        ],
+        "admission_methods": [
+            { "name": "Vestibular FATEC", "description": "Prova específica" },
+            { "name": "ENEM", "description": "Aproveitamento da nota do ENEM" }
+        ],
+        "scholarships": ["Bolsa Transporte", "Auxílio Permanência"]
+    },
+    {
+        "id": 28,
+        "name": "UNEMAT-Universidade do Estado de Mato Grosso",
+        "shortName": "UNEMAT",
+        "type": "publica",
+        "location": "Cáceres, MT",
+        "image": "http://cms.unemat.br/storage/imagens/noticia/fxp2w4GKiRkssjSjSmIddpV8eJEPVI3MOsUEiVDh.jpg",
+        "students": "15.000+",
+        "courses": "60+",
+        "ranking": "#4 Centro-Oeste",
+        "price": "Gratuito",
+        "priceValue": 0,
+        "description": "Universidade estadual de Mato Grosso, oferecendo cursos em áreas de saúde, ciências humanas, agrárias e tecnológicas.",
+        "courses_offered": [
+            { "name": "Medicina Veterinária", "duration": "5 anos" },
+            { "name": "Engenharia Agrícola", "duration": "5 anos" },
+            { "name": "Pedagogia", "duration": "4 anos" },
+            { "name": "Administração", "duration": "4 anos" }
+        ],
+        "locations": [
+            "Campus Cáceres",
+            "Campus Alta Floresta",
+            "Campus Rondonópolis",
+            "Campus Sinop"
+        ],
+        "admission_methods": [
+            { "name": "Vestibular UNEMAT", "description": "Prova própria" },
+            { "name": "ENEM/SISU", "description": "Vagas via ENEM" }
+        ],
+        "scholarships": ["Auxílio Alimentação", "Auxílio Transporte"]
+    },
+    {
+        "id": 29,
+        "name": "UECE-Universidade Estadual do Ceará",
+        "shortName": "UECE",
+        "type": "publica",
+        "location": "Fortaleza, CE",
+        "image": "https://www.uece.br/wp-content/uploads/2024/10/FachadaReitoriaLetreiroClose-2-1200x800.jpg",
+        "students": "15.000+",
+        "courses": "50+",
+        "ranking": "#5 Nordeste",
+        "price": "Gratuito",
+        "priceValue": 0,
+        "description": "Referência no Ceará, com cursos presenciais e de qualidade reconhecida em engenharia, saúde, tecnologia e humanas.",
+        "courses_offered": [
+            { "name": "Engenharia Civil", "duration": "5 anos" },
+            { "name": "Engenharia de Computação", "duration": "5 anos" },
+            { "name": "Medicina", "duration": "6 anos" },
+            { "name": "Direito", "duration": "5 anos" }
+        ],
+        "locations": [
+            "Campus Itaperi - Fortaleza",
+            "Campus Fátima - Fortaleza",
+            "Campus Quixadá",
+            "Campus Iguatu"
+        ],
+        "admission_methods": [
+            { "name": "Vestibular UECE", "description": "Prova presencial" },
+            { "name": "ENEM/SISU", "description": "Parte das vagas via ENEM" }
+        ],
+        "scholarships": ["Auxílio Permanência", "Bolsas de Pesquisa"]
     }
 ];
 
