@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FACTU</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/factu_icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -14,26 +18,26 @@
             <div class="nav-wrapper">
                 <div class="logo">
                     <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
                     </svg>
                     <span class="logo-text">FACTU</span>
                 </div>
-                
+
                 <nav class="nav-desktop">
                     <a href="#home" class="nav-link">Início</a>
                     <a href="#federais" class="nav-link">Federais</a>
                     <a href="#privadas" class="nav-link">Privadas</a>
                     <a href="#bolsas" class="nav-link">Bolsas</a>
                 </nav>
-                
+
                 <button class="mobile-menu-btn" id="mobileMenuBtn">
                     <span class="hamburger"></span>
                     <span class="hamburger"></span>
                     <span class="hamburger"></span>
                 </button>
             </div>
-            
+
             <nav class="nav-mobile" id="mobileNav">
                 <a href="#home" class="nav-link-mobile">Início</a>
                 <a href="#federais" class="nav-link-mobile">Federais</a>
@@ -48,7 +52,7 @@
         <div class="hero-background">
             <div class="hero-overlay"></div>
         </div>
-        
+
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">
@@ -56,37 +60,62 @@
                     para o seu Futuro
                 </h1>
                 <p class="hero-subtitle">
-                    Descubra as melhores universidades do Brasil, compare preços, 
+                    Descubra as melhores universidades do Brasil, compare preços,
                     formas de ingresso e encontre bolsas de estudo.
                 </p>
-                
+
                 <div class="search-section">
                     <div class="search-container">
                         <div class="search-box">
-                            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="11" cy="11" r="8"/>
-                                <path d="M21 21l-4.35-4.35"/>
+                            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="M21 21l-4.35-4.35" />
                             </svg>
-                            <input type="text" id="searchInput" placeholder="Busque por curso ou universidade..." class="search-input">
+                            <input type="text" id="searchInput" placeholder="Busque por curso ou universidade..."
+                                class="search-input">
                             <button class="search-btn" id="searchBtn">Buscar</button>
                         </div>
-                        
+
                         <div class="filters">
                             <select class="filter-select" id="typeFilter">
                                 <option value="">Tipo de Instituição</option>
                                 <option value="publica">Pública</option>
                                 <option value="privada">Privada</option>
                             </select>
-                            
+
                             <select class="filter-select" id="locationFilter">
                                 <option value="">Localização</option>
-                                <option value="sp">São Paulo</option>
-                                <option value="rj">Rio de Janeiro</option>
+                                <option value="ac">Acre</option>
+                                <option value="al">Alagoas</option>
+                                <option value="ap">Amapá</option>
+                                <option value="am">Amazonas</option>
+                                <option value="ba">Bahia</option>
+                                <option value="ce">Ceará</option>
+                                <option value="df">Distrito Federal</option>
+                                <option value="es">Espírito Santo</option>
+                                <option value="go">Goiás</option>
+                                <option value="ma">Maranhão</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
                                 <option value="mg">Minas Gerais</option>
-                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="pa">Pará</option>
+                                <option value="pb">Paraíba</option>
                                 <option value="pr">Paraná</option>
+                                <option value="pe">Pernambuco</option>
+                                <option value="pi">Piauí</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rr">Roraima</option>
+                                <option value="sc">Santa Catarina</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="se">Sergipe</option>
+                                <option value="to">Tocantins</option>
+
                             </select>
-                            
+
                             <select class="filter-select" id="priceFilter">
                                 <option value="">Faixa de Preço</option>
                                 <option value="gratuito">Gratuito</option>
@@ -109,7 +138,7 @@
                 <h2 class="section-title">Melhores Universidades do Brasil</h2>
                 <p class="section-subtitle">Instituições de excelência reconhecidas nacionalmente</p>
             </div>
-            
+
             <div class="universities-grid" id="universitiesGrid">
                 <!-- Universities will be populated by JavaScript -->
             </div>
@@ -147,8 +176,8 @@
                 <div class="footer-brand">
                     <div class="footer-logo">
                         <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                            <path d="M6 12v5c3 3 9 3 12 0v-5" />
                         </svg>
                         <span class="logo-text">FACTU</span>
                     </div>
@@ -156,7 +185,7 @@
                         Conectando estudantes às melhores oportunidades educacionais do Brasil.
                     </p>
                 </div>
-                
+
                 <div class="footer-links">
                     <h3 class="footer-title">Universidades</h3>
                     <ul class="footer-list">
@@ -166,7 +195,7 @@
                         <li><a href="#" class="footer-link">EAD</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-links">
                     <h3 class="footer-title">Recursos</h3>
                     <ul class="footer-list">
@@ -176,7 +205,7 @@
                         <li><a href="#" class="footer-link">ENEM</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-contact">
                     <h3 class="footer-title">Contato</h3>
                     <div class="contact-info">
@@ -186,7 +215,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p class="footer-copyright">© 2024 FACTU. Todos os direitos reservados.</p>
             </div>
@@ -200,8 +229,8 @@
                 <h2 class="modal-title" id="modalTitle"></h2>
                 <button class="modal-close" id="modalClose">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="18" y1="6" x2="6" y2="18"/>
-                        <line x1="6" y1="6" x2="18" y2="18"/>
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
                     </svg>
                 </button>
             </div>
@@ -211,6 +240,7 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>
