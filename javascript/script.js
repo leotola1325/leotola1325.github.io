@@ -13,6 +13,7 @@ const universities = [
         price: "Gratuito",
         priceValue: 0,
         description: "A maior e mais prestigiosa universidade do Brasil, reconhecida mundialmente pela excelência em ensino e pesquisa.",
+        website: "https://www.siteoficialdauniversidade.br",
         courses_offered: [
             { name: "Medicina", duration: "6 anos" },
             { name: "Engenharia Civil", duration: "5 anos" },
@@ -33,6 +34,7 @@ const universities = [
             { name: "Transferência", description: "Para alunos de outras instituições" }
         ],
         scholarships: ["ProUni", "Auxílio Permanência", "Bolsa Mérito"]
+
     },
     {
         id: 2,
@@ -497,7 +499,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Institucional"]
       },
       {
-        "id": 17,
+        "id": 16,
         "name": "Universidade Metodista de São Paulo",
         "shortName": "Metodista",
         "type": "privada",
@@ -526,7 +528,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
       },
       {
-        "id": 19,
+        "id": 17,
         "name": "Universidade Braz Cubas",
         "shortName": "Braz Cubas",
         "type": "privada",
@@ -556,7 +558,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
       },
       {
-        "id": 20,
+        "id": 18,
         "name": "Universidade do Vale do Rio dos Sinos (Unisinos)",
         "shortName": "Unisinos",
         "type": "privada",
@@ -585,7 +587,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
       },
       {
-        "id": 21,
+        "id": 19,
         "name": "Universidade do Centro de Ensino Unificado de Brasília (UniCEUB)",
         "shortName": "UniCEUB",
         "type": "privada",
@@ -614,7 +616,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Institucional"]
       },
       {
-        "id": 18,
+        "id": 20,
         "name": "Universidade do Oeste Paulista (Unoeste)",
         "shortName": "Unoeste",
         "type": "privada",
@@ -644,7 +646,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
       },
       {
-        "id": 24,
+        "id": 21,
         "name": "Universidade São Francisco (USF)",
         "shortName": "USF",
         "type": "privada",
@@ -673,7 +675,7 @@ const universities = [
         "scholarships": ["ProUni", "FIES", "Bolsa Mérito"]
       },
       {
-        "id": 25,
+        "id": 22,
         "name": "UNIVESP-Universidade Virtual do Estado de São Paulo",
         "shortName": "UNIVESP",
         "type": "publica",
@@ -701,7 +703,7 @@ const universities = [
         "scholarships": ["Auxílio Internet", "Bolsas de Inclusão Digital"]
     },
     {
-        "id": 26,
+        "id": 23,
         "name": "UEMA-Universidade Estadual do Maranhão",
         "shortName": "UEMA",
         "type": "publica",
@@ -732,7 +734,7 @@ const universities = [
         "scholarships": ["Auxílio Moradia", "Auxílio Alimentação", "Bolsas CNPq"]
     },
     {
-        "id": 27,
+        "id": 24,
         "name": "FATEC-Faculdade de Tecnologia do Estado de São Paulo",
         "shortName": "FATEC",
         "type": "publica",
@@ -761,7 +763,7 @@ const universities = [
         "scholarships": ["Bolsa Transporte", "Auxílio Permanência"]
     },
     {
-        "id": 28,
+        "id": 25,
         "name": "UNEMAT-Universidade do Estado de Mato Grosso",
         "shortName": "UNEMAT",
         "type": "publica",
@@ -792,7 +794,7 @@ const universities = [
         "scholarships": ["Auxílio Alimentação", "Auxílio Transporte"]
     },
     {
-        "id": 29,
+        "id": 26,
         "name": "UECE-Universidade Estadual do Ceará",
         "shortName": "UECE",
         "type": "publica",
@@ -821,7 +823,418 @@ const universities = [
             { "name": "ENEM/SISU", "description": "Parte das vagas via ENEM" }
         ],
         "scholarships": ["Auxílio Permanência", "Bolsas de Pesquisa"]
-    }
+    },
+
+    // outras novas faculdades publicas e oarticulares 
+    {
+    id: 27,
+    name: "UFSM - Universidade Federal de Santa Maria",
+    shortName: "UFSM",
+    type: "publica",
+    location: "Santa Maria, RS",
+    image: "https://dsmcdn.cloud-bricks.net/fotos/807836/file/desktop/voce-sabia-que-o-campus-da-ufsm-quase-foi-no-centro-universidade-lanca-e-book-com-essa-e-outras-curiosidades-1.jpg?1762085606",
+    website: "https://www.ufsm.br",
+    students: "28.000",
+    courses: "140+",
+    ranking: "Top 10 Sul",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Instituição federal referência no sul do Brasil.",
+    courses_offered: [
+      { name: "Engenharia Elétrica", duration: "5 anos" },
+      { name: "Direito", duration: "5 anos" }
+    ],
+    locations: ["Campus Santa Maria"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Ingresso pelo SISU" }
+    ],
+    scholarships: ["Auxílio Moradia", "Auxílio Alimentação"]
+},
+{
+    id: 28,
+    name: "UFSC - Universidade Federal de Santa Catarina",
+    shortName: "UFSC",
+    type: "publica",
+    location: "Florianópolis, SC",
+    image: "https://s1.static.brasilescola.uol.com.br/be/vestibular/centro-cultura-eventos-ufsc-53ac600e23e88.jpg",
+    website: "https://www.ufsc.br",
+    students: "42.000",
+    courses: "200+",
+    ranking: "Top 5 Sul",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Uma das melhores universidades do Brasil.",
+    courses_offered: [
+      { name: "Engenharia de Software", duration: "5 anos" },
+      { name: "Medicina", duration: "6 anos" }
+    ],
+    locations: ["Campus Trindade"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Ingresso via SISU" }
+    ],
+    scholarships: ["Auxílio Permanência", "Moradia Estudantil"]
+},
+{
+    id: 29,
+    name: "UFPR - Universidade Federal do Paraná",
+    shortName: "UFPR",
+    type: "publica",
+    location: "Curitiba, PR",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/UFPR_vista_frontal.jpg/250px-UFPR_vista_frontal.jpg",
+    website: "https://www.ufpr.br",
+    students: "35.000",
+    courses: "150+",
+    ranking: "Top 6 Brasil",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Uma das mais antigas universidades do país.",
+    courses_offered: [
+      { name: "Direito", duration: "5 anos" },
+      { name: "Engenharia Civil", duration: "5 anos" }
+    ],
+    locations: ["Campus Reitoria"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Sistema Unificado" }
+    ],
+    scholarships: ["Bolsa Alimentação"]
+},
+{
+    id: 30,
+    name: "UFC - Universidade Federal do Ceará",
+    shortName: "UFC",
+    type: "publica",
+    location: "Fortaleza, CE",
+    image: "https://s1.static.brasilescola.uol.com.br/be/vestibular/710968db4b8a107465c5e126abee982e.jpg",
+    website: "https://www.ufc.br",
+    students: "32.000",
+    courses: "120+",
+    ranking: "Top 4 Nordeste",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Universidade referência no Nordeste.",
+    courses_offered: [
+      { name: "Engenharia de Computação", duration: "5 anos" },
+      { name: "Administração", duration: "4 anos" }
+    ],
+    locations: ["Campus Benfica"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Nota do ENEM" }
+    ],
+    scholarships: ["Auxílio Transporte"]
+},
+{
+    id: 31,
+    name: "UFPA - Universidade Federal do Pará",
+    shortName: "UFPA",
+    type: "publica",
+    location: "Belém, PA",
+    image: "https://portalamazonia.com/wp-content/uploads/2021/04/b2ap3_large_181005-drone-ufpa-0021.jpeg",
+    website: "https://www.ufpa.br",
+    students: "60.000",
+    courses: "300+",
+    ranking: "Top 3 Norte",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "A maior universidade da região Norte.",
+    courses_offered: [
+      { name: "Engenharia Ambiental", duration: "5 anos" },
+      { name: "Biologia", duration: "4 anos" }
+    ],
+    locations: ["Campus Guamá"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Via ENEM" }
+    ],
+    scholarships: ["Auxílio Moradia"]
+},
+{
+    id: 32,
+    name: "UFPB - Universidade Federal da Paraíba",
+    shortName: "UFPB",
+    type: "publica",
+    location: "João Pessoa, PB",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsd_0zrOz7qm-MnVp0AUIiID6VEbLvhZ25QA&s",
+    website: "https://www.ufpb.br",
+    students: "28.000",
+    courses: "130+",
+    ranking: "Top 6 Nordeste",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Universidade com forte pesquisa e inovação.",
+    courses_offered: [
+      { name: "Sistemas de Informação", duration: "4 anos" },
+      { name: "Fisica", duration: "4 anos" }
+    ],
+    locations: ["Campus João Pessoa"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Via ENEM" }
+    ],
+    scholarships: ["Bolsa Moradia"]
+},
+{
+    id: 33,
+    name: "PUC-Rio",
+    shortName: "PUC-Rio",
+    type: "privada",
+    location: "Rio de Janeiro, RJ",
+    image: "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/PUC-RIO.jpg?w=1200&h=1200&crop=1",
+    website: "https://www.puc-rio.br",
+    students: "20.000",
+    courses: "80+",
+    ranking: "Top 5 Privadas BR",
+    price: "R$ 3.000",
+    priceValue: 3000,
+    description: "Uma das melhores universidades privadas do Brasil.",
+    courses_offered: [
+      { name: "Engenharia de Computação", duration: "5 anos" },
+      { name: "Psicologia", duration: "5 anos" }
+    ],
+    locations: ["Campus Gávea"],
+    admission_methods: [
+      { name: "ENEM", description: "Nota do ENEM" }
+    ],
+    scholarships: ["ProUni", "Bolsa Mérito"]
+},
+{
+    id: 34,
+    name: "UNIFOR - Universidade de Fortaleza",
+    shortName: "UNIFOR",
+    type: "privada",
+    location: "Fortaleza, CE",
+    image: "https://unifor.br/documents/20143/573160/unifor-campus-centro-convivencia-fachada-foto-ares-soares.jpg/47477ff5-2e7a-aaf8-a296-41b8041f53d4?t=1547844199906",
+    website: "https://www.unifor.br",
+    students: "25.000",
+    courses: "100+",
+    ranking: "Top 10 Privadas BR",
+    price: "R$ 1.800",
+    priceValue: 1800,
+    description: "Universidade referência no Ceará.",
+    courses_offered: [
+      { name: "Design Digital", duration: "4 anos" },
+      { name: "Engenharia Civil", duration: "5 anos" }
+    ],
+    locations: ["Campus Fortaleza"],
+    admission_methods: [
+      { name: "ENEM", description: "Entrada via ENEM" }
+    ],
+    scholarships: ["ProUni", "FIES"]
+},
+{
+    id: 35,
+    name: "UNIT - Universidade Tiradentes",
+    shortName: "UNIT",
+    type: "privada",
+    location: "Aracaju, SE",
+    image: "https://s1.static.brasilescola.uol.com.br/be/vestibular/reitoria-unit-54ae60f93a240.jpg",
+    website: "https://www.unit.br",
+    students: "40.000",
+    courses: "150+",
+    ranking: "Top 5 Nordeste Privadas",
+    price: "R$ 900",
+    priceValue: 900,
+    description: "Maior universidade privada de Sergipe.",
+    courses_offered: [
+      { name: "Enfermagem", duration: "4 anos" },
+      { name: "Engenharia Mecânica", duration: "5 anos" }
+    ],
+    locations: ["Campus Aracaju"],
+    admission_methods: [
+      { name: "Vestibular", description: "Prova online" }
+    ],
+    scholarships: ["ProUni", "FIES"]
+},
+{
+    id: 36,
+    name: "UNIARA - Universidade de Araraquara",
+    shortName: "UNIARA",
+    type: "privada",
+    location: "Araraquara, SP",
+    image: "https://www.uniara.com.br/cursos/presencial/graduacao/assets/img/unidades/uniara-unidade-2.jpg",
+    website: "https://www.uniara.com.br",
+    students: "10.000",
+    courses: "50+",
+    ranking: "Top 30 SP",
+    price: "R$ 1.200",
+    priceValue: 1200,
+    description: "Universidade tradicional do interior paulista.",
+    courses_offered: [
+      { name: "Administração", duration: "4 anos" },
+      { name: "Engenharia Ambiental", duration: "5 anos" }
+    ],
+    locations: ["Campus Araraquara"],
+    admission_methods: [
+      { name: "ENEM", description: "Nota do ENEM" }
+    ],
+    scholarships: ["ProUni"]
+},
+{
+    id: 37,
+    name: "UNIFESP - Universidade Federal de São Paulo",
+    shortName: "UNIFESP",
+    type: "publica",
+    location: "São Paulo, SP",
+    image: "https://s1.static.brasilescola.uol.com.br/be/vestibular/b99e46cb352989e94d93d7808dbecc97.jpg",
+    website: "https://www.unifesp.br",
+    students: "15.000",
+    courses: "40+",
+    ranking: "Top 5 Saúde",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Referência nacional em cursos da área da saúde.",
+    courses_offered: [
+      { name: "Medicina", duration: "6 anos" },
+      { name: "Biomedicina", duration: "4 anos" }
+    ],
+    locations: ["Campus Vila Mariana"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Entrada via SISU" }
+    ],
+    scholarships: ["Bolsa Alimentação"]
+},
+{
+    id: 38,
+    name: "UERJ - Universidade do Estado do Rio de Janeiro",
+    shortName: "UERJ",
+    type: "publica",
+    location: "Rio de Janeiro, RJ",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMsu4t8HwY8HAjx6muAILGeInx3SWqe_nog&s",
+    website: "https://www.uerj.br",
+    students: "25.000",
+    courses: "100+",
+    ranking: "Top 15 BR",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Uma das universidades mais tradicionais do país.",
+    courses_offered: [
+      { name: "Engenharia Eletrônica", duration: "5 anos" },
+      { name: "Direito", duration: "5 anos" }
+    ],
+    locations: ["Campus Maracanã"],
+    admission_methods: [
+      { name: "Vestibular UERJ", description: "Prova própria" }
+    ],
+    scholarships: ["Auxílio transporte"]
+},
+{
+    id: 39,
+    name: "UFRN - Universidade Federal do Rio Grande do Norte",
+    shortName: "UFRN",
+    type: "publica",
+    location: "Natal, RN",
+    image: "https://s2-g1.glbimg.com/mZosh-_QhvQyJsIIyQBwJcTOW_s=/0x0:1152x648/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/d/l/FHzDfLTASJ8XoMbCRSlA/whatsapp-image-2019-10-17-at-11.35.48.jpeg",
+    website: "https://www.ufrn.br",
+    students: "30.000",
+    courses: "140+",
+    ranking: "Top 10 Nordeste",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Universidade com forte pesquisa no Nordeste.",
+    courses_offered: [
+      { name: "Engenharia de Computação", duration: "5 anos" },
+      { name: "Arquitetura", duration: "5 anos" }
+    ],
+    locations: ["Campus Natal"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Via ENEM" }
+    ],
+    scholarships: ["Auxílio Moradia"]
+},
+{
+    id: 40,
+    name: "UFES - Universidade Federal do Espírito Santo",
+    shortName: "UFES",
+    type: "publica",
+    location: "Vitória, ES",
+    image: "https://www.ufes.br/sites/default/files/2024-03/teatro_ufes.png",
+    website: "https://www.ufes.br",
+    students: "20.000",
+    courses: "80+",
+    ranking: "Top 15 BR",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Maior universidade do Espírito Santo.",
+    courses_offered: [
+      { name: "Engenharia Química", duration: "5 anos" },
+      { name: "História", duration: "4 anos" }
+    ],
+    locations: ["Campus Goiabeiras"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Entrada via SISU" }
+    ],
+    scholarships: ["Auxílio permanência"]
+},
+{
+    id: 41,
+    name: "UNIPAMPA",
+    shortName: "UNIPAMPA",
+    type: "publica",
+    location: "Bagé, RS",
+    image: "https://www.bage24horas.com.br/uploads/images/2025/10/unipampa-lanca-edital-para-professor-com-salario-de-r-13-3-mil-545bd.jpg",
+    website: "https://www.unipampa.edu.br",
+    students: "12.000",
+    courses: "40+",
+    ranking: "Top 20 Sul",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "Universidade do interior gaúcho com forte presença regional.",
+    courses_offered: [
+      { name: "Agronomia", duration: "5 anos" },
+      { name: "Engenharia Civil", duration: "5 anos" }
+    ],
+    locations: ["Campus Bagé"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Via ENEM" }
+    ],
+    scholarships: ["Moradia Estudantil"]
+},
+{
+    id: 42,
+    name: "UNICID",
+    shortName: "UNICID",
+    type: "privada",
+    location: "São Paulo, SP",
+    image: "https://spjornal.com.br/wp-content/uploads/2025/05/unicid.jpg",
+    website: "https://www.unicid.edu.br",
+    students: "40.000",
+    courses: "100+",
+    ranking: "Top 30 SP",
+    price: "R$ 1.300",
+    priceValue: 1300,
+    description: "Instituição de destaque na zona leste de São Paulo.",
+    courses_offered: [
+      { name: "Fisioterapia", duration: "4 anos" },
+      { name: "Engenharia Civil", duration: "5 anos" }
+    ],
+    locations: ["Campus Tatuapé"],
+    admission_methods: [
+      { name: "ENEM", description: "Nota do ENEM" }
+    ],
+    scholarships: ["ProUni", "FIES"]
+},
+{
+    id: 44,
+    name: "UFBA - Universidade Federal da Bahia",
+    shortName: "UFBA",
+    type: "publica",
+    location: "Salvador, BA",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaC6SMov48ZuNHPSHCKsprGM_yKJhcnSrEtA&s",
+    website: "https://www.ufba.br",
+    students: "38.000",
+    courses: "150+",
+    ranking: "Top 10 Nordeste",
+    price: "Gratuito",
+    priceValue: 0,
+    description: "A maior federal da Bahia.",
+    courses_offered: [
+      { name: "Medicina", duration: "6 anos" },
+      { name: "Computação", duration: "4 anos" }
+    ],
+    locations: ["Campus Ondina"],
+    admission_methods: [
+      { name: "ENEM/SISU", description: "Entrada via ENEM" }
+    ],
+    scholarships: ["Auxílio Moradia"]
+}
+
 ];
 
 // DOM Elements
